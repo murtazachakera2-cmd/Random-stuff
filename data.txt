@@ -1,0 +1,536 @@
+
+Game 1/100 | Moves: 25 | Result: Red won | Loss: 0.1456
+Game 2/100 | Moves: 20 | Result: Yellow won | Loss: 0.5095
+Game 3/100 | Moves: 15 | Result: Red won | Loss: 0.1359
+Game 4/100 | Moves: 22 | Result: Yellow won | Loss: 0.3150
+Game 5/100 | Moves: 29 | Result: Red won | Loss: 0.1959
+Game 6/100 | Moves: 12 | Result: Yellow won | Loss: 0.2694
+Game 7/100 | Moves: 18 | Result: Yellow won | Loss: 0.2992
+Game 8/100 | Moves: 7 | Result: Red won | Loss: 0.3889
+Game 9/100 | Moves: 33 | Result: Red won | Loss: 0.3192
+Game 10/100 | Moves: 35 | Result: Red won | Loss: 0.2660
+Game 11/100 | Moves: 14 | Result: Yellow won | Loss: 0.3039
+Game 12/100 | Moves: 33 | Result: Red won | Loss: 0.2540
+Game 13/100 | Moves: 22 | Result: Yellow won | Loss: 0.2651
+Game 14/100 | Moves: 31 | Result: Red won | Loss: 0.2395
+Game 15/100 | Moves: 31 | Result: Red won | Loss: 0.1853
+Game 16/100 | Moves: 21 | Result: Red won | Loss: 0.2169
+Game 17/100 | Moves: 29 | Result: Red won | Loss: 0.2035
+Game 18/100 | Moves: 37 | Result: Red won | Loss: 0.2009
+Game 19/100 | Moves: 27 | Result: Red won | Loss: 0.1715
+Game 20/100 | Moves: 29 | Result: Red won | Loss: 0.1400
+Game 21/100 | Moves: 13 | Result: Red won | Loss: 0.1492
+Game 22/100 | Moves: 22 | Result: Yellow won | Loss: 0.4502
+Game 23/100 | Moves: 28 | Result: Yellow won | Loss: 0.4366
+Game 24/100 | Moves: 39 | Result: Red won | Loss: 0.1938
+Game 25/100 | Moves: 40 | Result: Yellow won | Loss: 0.4049
+Game 26/100 | Moves: 27 | Result: Red won | Loss: 0.1915
+Game 27/100 | Moves: 31 | Result: Red won | Loss: 0.1977
+Game 28/100 | Moves: 29 | Result: Red won | Loss: 0.1814
+Game 29/100 | Moves: 37 | Result: Red won | Loss: 0.3398
+Game 30/100 | Moves: 27 | Result: Red won | Loss: 0.1931
+Game 31/100 | Moves: 36 | Result: Yellow won | Loss: 0.3292
+Game 32/100 | Moves: 34 | Result: Yellow won | Loss: 0.3206
+Game 33/100 | Moves: 42 | Result: Yellow won | Loss: 0.3604
+Game 34/100 | Moves: 42 | Result: Draw | Loss: 0.2113
+Game 35/100 | Moves: 25 | Result: Red won | Loss: 0.3082
+Game 36/100 | Moves: 33 | Result: Red won | Loss: 0.1744
+Game 37/100 | Moves: 15 | Result: Red won | Loss: 0.1663
+Game 38/100 | Moves: 34 | Result: Yellow won | Loss: 0.3010
+Game 39/100 | Moves: 29 | Result: Red won | Loss: 0.1546
+Game 40/100 | Moves: 24 | Result: Yellow won | Loss: 0.2145
+Game 41/100 | Moves: 32 | Result: Yellow won | Loss: 0.6134
+Game 42/100 | Moves: 17 | Result: Red won | Loss: 0.1614
+Game 43/100 | Moves: 13 | Result: Red won | Loss: 0.1967
+Game 44/100 | Moves: 36 | Result: Yellow won | Loss: 0.3641
+Game 45/100 | Moves: 37 | Result: Red won | Loss: 0.2565
+Game 46/100 | Moves: 34 | Result: Yellow won | Loss: 0.3287
+Game 47/100 | Moves: 38 | Result: Yellow won | Loss: 0.3250
+Game 48/100 | Moves: 32 | Result: Yellow won | Loss: 0.2410
+Game 49/100 | Moves: 38 | Result: Yellow won | Loss: 0.3788
+Game 50/100 | Moves: 32 | Result: Yellow won | Loss: 0.3053
+Game 51/100 | Moves: 20 | Result: Yellow won | Loss: 0.2322
+Game 52/100 | Moves: 21 | Result: Red won | Loss: 0.3569
+Game 53/100 | Moves: 39 | Result: Red won | Loss: 0.2755
+Game 54/100 | Moves: 27 | Result: Red won | Loss: 0.3139
+Game 55/100 | Moves: 24 | Result: Yellow won | Loss: 0.2135
+Game 56/100 | Moves: 31 | Result: Red won | Loss: 0.2629
+Game 57/100 | Moves: 27 | Result: Red won | Loss: 0.2673
+Game 58/100 | Moves: 37 | Result: Red won | Loss: 0.3545
+Game 59/100 | Moves: 23 | Result: Red won | Loss: 0.2754
+Game 60/100 | Moves: 7 | Result: Red won | Loss: 0.2356
+Game 61/100 | Moves: 34 | Result: Yellow won | Loss: 0.4705
+Game 62/100 | Moves: 31 | Result: Red won | Loss: 0.3545
+Game 63/100 | Moves: 18 | Result: Yellow won | Loss: 0.2804
+Game 64/100 | Moves: 30 | Result: Yellow won | Loss: 0.2996
+Game 65/100 | Moves: 38 | Result: Yellow won | Loss: 0.3325
+Game 66/100 | Moves: 21 | Result: Red won | Loss: 0.2425
+Game 67/100 | Moves: 25 | Result: Red won | Loss: 0.2263
+Game 68/100 | Moves: 27 | Result: Red won | Loss: 0.1634
+Game 69/100 | Moves: 42 | Result: Draw | Loss: 0.1164
+Game 70/100 | Moves: 23 | Result: Red won | Loss: 0.2536
+Game 71/100 | Moves: 27 | Result: Red won | Loss: 0.2275
+Game 72/100 | Moves: 36 | Result: Yellow won | Loss: 0.3064
+Game 73/100 | Moves: 28 | Result: Yellow won | Loss: 0.3389
+Game 74/100 | Moves: 30 | Result: Yellow won | Loss: 0.3751
+Game 75/100 | Moves: 31 | Result: Red won | Loss: 0.1992
+Game 76/100 | Moves: 15 | Result: Red won | Loss: 0.1839
+Game 77/100 | Moves: 22 | Result: Yellow won | Loss: 0.4898
+Game 78/100 | Moves: 31 | Result: Red won | Loss: 0.2372
+Game 79/100 | Moves: 11 | Result: Red won | Loss: 0.1568
+Game 80/100 | Moves: 35 | Result: Red won | Loss: 0.2107
+Game 81/100 | Moves: 14 | Result: Yellow won | Loss: 0.2506
+Game 82/100 | Moves: 21 | Result: Red won | Loss: 0.1990
+Game 83/100 | Moves: 25 | Result: Red won | Loss: 0.1557
+Game 84/100 | Moves: 33 | Result: Red won | Loss: 0.2368
+Game 85/100 | Moves: 30 | Result: Yellow won | Loss: 0.2656
+Game 86/100 | Moves: 25 | Result: Red won | Loss: 0.1459
+Game 87/100 | Moves: 38 | Result: Yellow won | Loss: 0.3752
+Game 88/100 | Moves: 34 | Result: Yellow won | Loss: 0.3097
+Game 89/100 | Moves: 11 | Result: Red won | Loss: 0.1455
+Game 90/100 | Moves: 26 | Result: Yellow won | Loss: 0.3263
+Game 91/100 | Moves: 34 | Result: Yellow won | Loss: 0.2499
+Game 92/100 | Moves: 38 | Result: Yellow won | Loss: 0.2650
+Game 93/100 | Moves: 35 | Result: Red won | Loss: 0.3698
+Game 94/100 | Moves: 20 | Result: Yellow won | Loss: 0.3413
+Game 95/100 | Moves: 17 | Result: Red won | Loss: 0.1977
+Game 96/100 | Moves: 21 | Result: Red won | Loss: 0.3306
+Game 97/100 | Moves: 7 | Result: Red won | Loss: 0.4570
+Game 98/100 | Moves: 34 | Result: Yellow won | Loss: 0.2274
+Game 99/100 | Moves: 34 | Result: Yellow won | Loss: 0.2266
+Game 100/100 | Moves: 41 | Result: Red won | Loss: 0.4455
+
+Training complete! 
+Red wins: 57
+Yellow wins: 41
+Draws: 2
+Model saved to 'connect4_cnn.pth'.
+
+Game 1/100 | Moves: 27 | Result: Red won | Loss: 0.2170
+Game 2/100 | Moves: 36 | Result: Yellow won | Loss: 0.3392
+Game 3/100 | Moves: 14 | Result: Yellow won | Loss: 0.2324
+Game 4/100 | Moves: 36 | Result: Yellow won | Loss: 0.2325
+Game 5/100 | Moves: 23 | Result: Red won | Loss: 0.3595
+Game 6/100 | Moves: 27 | Result: Red won | Loss: 0.3621
+Game 7/100 | Moves: 27 | Result: Red won | Loss: 0.3265
+Game 8/100 | Moves: 38 | Result: Yellow won | Loss: 0.2621
+Game 9/100 | Moves: 38 | Result: Yellow won | Loss: 0.2407
+Game 10/100 | Moves: 42 | Result: Draw | Loss: 0.0966
+Game 11/100 | Moves: 37 | Result: Red won | Loss: 0.2063
+Game 12/100 | Moves: 16 | Result: Yellow won | Loss: 0.2732
+Game 13/100 | Moves: 34 | Result: Yellow won | Loss: 0.2478
+Game 14/100 | Moves: 21 | Result: Red won | Loss: 0.2565
+Game 15/100 | Moves: 35 | Result: Red won | Loss: 0.2171
+Game 16/100 | Moves: 36 | Result: Yellow won | Loss: 0.4430
+Game 17/100 | Moves: 34 | Result: Yellow won | Loss: 0.3303
+Game 18/100 | Moves: 32 | Result: Yellow won | Loss: 0.3167
+Game 19/100 | Moves: 24 | Result: Yellow won | Loss: 0.2406
+Game 20/100 | Moves: 32 | Result: Yellow won | Loss: 0.3348
+Game 21/100 | Moves: 38 | Result: Yellow won | Loss: 0.2474
+Game 22/100 | Moves: 37 | Result: Red won | Loss: 0.2143
+Game 23/100 | Moves: 21 | Result: Red won | Loss: 0.4215
+Game 24/100 | Moves: 33 | Result: Red won | Loss: 0.4847
+Game 25/100 | Moves: 33 | Result: Red won | Loss: 0.3326
+Game 26/100 | Moves: 29 | Result: Red won | Loss: 0.3765
+Game 27/100 | Moves: 33 | Result: Red won | Loss: 0.2920
+Game 28/100 | Moves: 38 | Result: Yellow won | Loss: 0.3222
+Game 29/100 | Moves: 7 | Result: Red won | Loss: 0.2749
+Game 30/100 | Moves: 42 | Result: Draw | Loss: 0.1173
+Game 31/100 | Moves: 26 | Result: Yellow won | Loss: 0.4255
+Game 32/100 | Moves: 19 | Result: Red won | Loss: 0.2789
+Game 33/100 | Moves: 7 | Result: Red won | Loss: 0.1960
+Game 34/100 | Moves: 40 | Result: Yellow won | Loss: 0.3279
+Game 35/100 | Moves: 12 | Result: Yellow won | Loss: 0.2534
+Game 36/100 | Moves: 35 | Result: Red won | Loss: 0.1684
+Game 37/100 | Moves: 23 | Result: Red won | Loss: 0.2228
+Game 38/100 | Moves: 24 | Result: Yellow won | Loss: 0.2392
+Game 39/100 | Moves: 23 | Result: Red won | Loss: 0.1608
+Game 40/100 | Moves: 27 | Result: Red won | Loss: 0.2341
+Game 41/100 | Moves: 33 | Result: Red won | Loss: 0.2304
+Game 42/100 | Moves: 33 | Result: Red won | Loss: 0.2174
+Game 43/100 | Moves: 26 | Result: Yellow won | Loss: 0.2688
+Game 44/100 | Moves: 14 | Result: Yellow won | Loss: 0.3947
+Game 45/100 | Moves: 39 | Result: Red won | Loss: 0.2186
+Game 46/100 | Moves: 39 | Result: Red won | Loss: 0.2334
+Game 47/100 | Moves: 7 | Result: Red won | Loss: 0.1569
+Game 48/100 | Moves: 11 | Result: Red won | Loss: 0.2046
+Game 49/100 | Moves: 33 | Result: Red won | Loss: 0.1468
+Game 50/100 | Moves: 35 | Result: Red won | Loss: 0.2939
+Game 51/100 | Moves: 23 | Result: Red won | Loss: 0.2401
+Game 52/100 | Moves: 34 | Result: Yellow won | Loss: 0.4060
+Game 53/100 | Moves: 34 | Result: Yellow won | Loss: 0.4366
+Game 54/100 | Moves: 14 | Result: Yellow won | Loss: 0.4668
+Game 55/100 | Moves: 40 | Result: Yellow won | Loss: 0.4564
+Game 56/100 | Moves: 36 | Result: Yellow won | Loss: 0.2715
+Game 57/100 | Moves: 28 | Result: Yellow won | Loss: 0.3703
+Game 58/100 | Moves: 28 | Result: Yellow won | Loss: 0.2671
+Game 59/100 | Moves: 20 | Result: Yellow won | Loss: 0.3641
+Game 60/100 | Moves: 35 | Result: Red won | Loss: 0.2365
+Game 61/100 | Moves: 37 | Result: Red won | Loss: 0.2789
+Game 62/100 | Moves: 29 | Result: Red won | Loss: 0.2654
+Game 63/100 | Moves: 19 | Result: Red won | Loss: 0.2725
+Game 64/100 | Moves: 33 | Result: Red won | Loss: 0.3143
+Game 65/100 | Moves: 14 | Result: Yellow won | Loss: 0.2636
+Game 66/100 | Moves: 34 | Result: Yellow won | Loss: 0.2031
+Game 67/100 | Moves: 35 | Result: Red won | Loss: 0.2420
+Game 68/100 | Moves: 18 | Result: Yellow won | Loss: 0.2643
+Game 69/100 | Moves: 15 | Result: Red won | Loss: 0.2755
+Game 70/100 | Moves: 33 | Result: Red won | Loss: 0.2448
+Game 71/100 | Moves: 39 | Result: Red won | Loss: 0.2694
+Game 72/100 | Moves: 25 | Result: Red won | Loss: 0.3133
+Game 73/100 | Moves: 26 | Result: Yellow won | Loss: 0.1759
+Game 74/100 | Moves: 36 | Result: Yellow won | Loss: 0.2572
+Game 75/100 | Moves: 33 | Result: Red won | Loss: 0.2255
+Game 76/100 | Moves: 26 | Result: Yellow won | Loss: 0.3012
+Game 77/100 | Moves: 7 | Result: Red won | Loss: 0.2833
+Game 78/100 | Moves: 31 | Result: Red won | Loss: 0.2986
+Game 79/100 | Moves: 34 | Result: Yellow won | Loss: 0.2187
+Game 80/100 | Moves: 29 | Result: Red won | Loss: 0.1731
+Game 81/100 | Moves: 27 | Result: Red won | Loss: 0.2076
+Game 82/100 | Moves: 32 | Result: Yellow won | Loss: 0.3536
+Game 83/100 | Moves: 14 | Result: Yellow won | Loss: 0.2893
+Game 84/100 | Moves: 20 | Result: Yellow won | Loss: 0.2011
+Game 85/100 | Moves: 37 | Result: Red won | Loss: 0.3393
+Game 86/100 | Moves: 27 | Result: Red won | Loss: 0.2761
+Game 87/100 | Moves: 35 | Result: Red won | Loss: 0.2776
+Game 88/100 | Moves: 26 | Result: Yellow won | Loss: 0.1950
+Game 89/100 | Moves: 34 | Result: Yellow won | Loss: 0.2779
+Game 90/100 | Moves: 39 | Result: Red won | Loss: 0.2196
+Game 91/100 | Moves: 40 | Result: Yellow won | Loss: 0.3280
+Game 92/100 | Moves: 32 | Result: Yellow won | Loss: 0.2637
+Game 93/100 | Moves: 37 | Result: Red won | Loss: 0.2945
+Game 94/100 | Moves: 34 | Result: Yellow won | Loss: 0.3236
+Game 95/100 | Moves: 27 | Result: Red won | Loss: 0.2175
+Game 96/100 | Moves: 34 | Result: Yellow won | Loss: 0.2387
+Game 97/100 | Moves: 25 | Result: Red won | Loss: 0.2214
+Game 98/100 | Moves: 39 | Result: Red won | Loss: 0.2665
+Game 99/100 | Moves: 34 | Result: Yellow won | Loss: 0.3050
+Game 100/100 | Moves: 21 | Result: Red won | Loss: 0.2200
+
+Training complete!
+Red wins: 53
+Yellow wins: 45
+Draws: 2
+Model saved to 'connect4_cnn.pth'.
+
+
+Game 1/100 | Moves: 23 | Result: Red won | Loss: 0.1893
+Game 2/100 | Moves: 35 | Result: Red won | Loss: 0.1997
+Game 3/100 | Moves: 9 | Result: Red won | Loss: 0.1283
+Game 4/100 | Moves: 22 | Result: Yellow won | Loss: 0.5261
+Game 5/100 | Moves: 36 | Result: Yellow won | Loss: 0.4399
+Game 6/100 | Moves: 24 | Result: Yellow won | Loss: 0.2818
+Game 7/100 | Moves: 42 | Result: Draw | Loss: 0.1055
+Game 8/100 | Moves: 42 | Result: Draw | Loss: 0.0999
+Game 9/100 | Moves: 27 | Result: Red won | Loss: 0.1873
+Game 10/100 | Moves: 39 | Result: Red won | Loss: 0.2038
+Game 11/100 | Moves: 7 | Result: Red won | Loss: 0.2546
+Game 12/100 | Moves: 13 | Result: Red won | Loss: 0.1742
+Game 13/100 | Moves: 30 | Result: Yellow won | Loss: 0.2927
+Game 14/100 | Moves: 21 | Result: Red won | Loss: 0.1651
+Game 15/100 | Moves: 34 | Result: Yellow won | Loss: 0.3885
+Game 16/100 | Moves: 33 | Result: Red won | Loss: 0.2238
+Game 17/100 | Moves: 33 | Result: Red won | Loss: 0.2551
+Game 18/100 | Moves: 37 | Result: Red won | Loss: 0.1545
+Game 19/100 | Moves: 40 | Result: Yellow won | Loss: 0.2993
+Game 20/100 | Moves: 36 | Result: Yellow won | Loss: 0.2901
+Game 21/100 | Moves: 36 | Result: Yellow won | Loss: 0.3022
+Game 22/100 | Moves: 34 | Result: Yellow won | Loss: 0.3449
+Game 23/100 | Moves: 24 | Result: Yellow won | Loss: 0.2446
+Game 24/100 | Moves: 37 | Result: Red won | Loss: 0.2338
+Game 25/100 | Moves: 21 | Result: Red won | Loss: 0.2062
+Game 26/100 | Moves: 19 | Result: Red won | Loss: 0.2079
+Game 27/100 | Moves: 39 | Result: Red won | Loss: 0.1957
+Game 28/100 | Moves: 38 | Result: Yellow won | Loss: 0.4654
+Game 29/100 | Moves: 42 | Result: Draw | Loss: 0.0865
+Game 30/100 | Moves: 15 | Result: Red won | Loss: 0.1217
+Game 31/100 | Moves: 13 | Result: Red won | Loss: 0.2187
+Game 32/100 | Moves: 40 | Result: Yellow won | Loss: 0.2791
+Game 33/100 | Moves: 30 | Result: Yellow won | Loss: 0.2798
+Game 34/100 | Moves: 17 | Result: Red won | Loss: 0.1825
+Game 35/100 | Moves: 14 | Result: Yellow won | Loss: 0.2747
+Game 36/100 | Moves: 23 | Result: Red won | Loss: 0.2669
+Game 37/100 | Moves: 29 | Result: Red won | Loss: 0.1546
+Game 38/100 | Moves: 23 | Result: Red won | Loss: 0.1344
+Game 39/100 | Moves: 36 | Result: Yellow won | Loss: 0.5246
+Game 40/100 | Moves: 37 | Result: Red won | Loss: 0.2185
+Game 41/100 | Moves: 31 | Result: Red won | Loss: 0.2130
+Game 42/100 | Moves: 38 | Result: Yellow won | Loss: 0.2847
+Game 43/100 | Moves: 42 | Result: Draw | Loss: 0.0780
+Game 44/100 | Moves: 36 | Result: Yellow won | Loss: 0.3398
+Game 45/100 | Moves: 25 | Result: Red won | Loss: 0.1929
+Game 46/100 | Moves: 35 | Result: Red won | Loss: 0.1878
+Game 47/100 | Moves: 34 | Result: Yellow won | Loss: 0.2834
+Game 48/100 | Moves: 18 | Result: Yellow won | Loss: 0.2063
+Game 49/100 | Moves: 28 | Result: Yellow won | Loss: 0.2775
+Game 50/100 | Moves: 31 | Result: Red won | Loss: 0.2131
+Game 51/100 | Moves: 30 | Result: Yellow won | Loss: 0.2305
+Game 52/100 | Moves: 42 | Result: Draw | Loss: 0.0638
+Game 53/100 | Moves: 36 | Result: Yellow won | Loss: 0.2795
+Game 54/100 | Moves: 18 | Result: Yellow won | Loss: 0.1827
+Game 55/100 | Moves: 19 | Result: Red won | Loss: 0.1772
+Game 56/100 | Moves: 36 | Result: Yellow won | Loss: 0.1766
+Game 57/100 | Moves: 27 | Result: Red won | Loss: 0.1939
+Game 58/100 | Moves: 24 | Result: Yellow won | Loss: 0.2075
+Game 59/100 | Moves: 21 | Result: Red won | Loss: 0.3884
+Game 60/100 | Moves: 30 | Result: Yellow won | Loss: 0.2695
+Game 61/100 | Moves: 42 | Result: Draw | Loss: 0.0764
+Game 62/100 | Moves: 7 | Result: Red won | Loss: 0.3127
+Game 63/100 | Moves: 31 | Result: Red won | Loss: 0.1318
+Game 64/100 | Moves: 37 | Result: Red won | Loss: 0.4024
+Game 65/100 | Moves: 24 | Result: Yellow won | Loss: 0.2480
+Game 66/100 | Moves: 32 | Result: Yellow won | Loss: 0.2590
+Game 67/100 | Moves: 24 | Result: Yellow won | Loss: 0.2085
+Game 68/100 | Moves: 27 | Result: Red won | Loss: 0.1622
+Game 69/100 | Moves: 23 | Result: Red won | Loss: 0.1390
+Game 70/100 | Moves: 37 | Result: Red won | Loss: 0.2156
+Game 71/100 | Moves: 40 | Result: Yellow won | Loss: 0.4351
+Game 72/100 | Moves: 42 | Result: Draw | Loss: 0.1448
+Game 73/100 | Moves: 42 | Result: Draw | Loss: 0.1160
+Game 74/100 | Moves: 7 | Result: Red won | Loss: 0.3871
+Game 75/100 | Moves: 23 | Result: Red won | Loss: 0.2030
+Game 76/100 | Moves: 36 | Result: Yellow won | Loss: 0.3451
+Game 77/100 | Moves: 23 | Result: Red won | Loss: 0.1562
+Game 78/100 | Moves: 40 | Result: Yellow won | Loss: 0.3242
+Game 79/100 | Moves: 26 | Result: Yellow won | Loss: 0.1868
+Game 80/100 | Moves: 29 | Result: Red won | Loss: 0.1197
+Game 81/100 | Moves: 25 | Result: Red won | Loss: 0.1214
+Game 82/100 | Moves: 22 | Result: Yellow won | Loss: 0.2498
+Game 83/100 | Moves: 21 | Result: Red won | Loss: 0.0709
+Game 84/100 | Moves: 25 | Result: Red won | Loss: 0.1352
+Game 85/100 | Moves: 18 | Result: Yellow won | Loss: 0.3137
+Game 86/100 | Moves: 30 | Result: Yellow won | Loss: 0.4871
+Game 87/100 | Moves: 32 | Result: Yellow won | Loss: 0.3839
+Game 88/100 | Moves: 13 | Result: Red won | Loss: 0.1763
+Game 89/100 | Moves: 34 | Result: Yellow won | Loss: 0.3454
+Game 90/100 | Moves: 16 | Result: Yellow won | Loss: 0.2110
+Game 91/100 | Moves: 42 | Result: Draw | Loss: 0.1189
+Game 92/100 | Moves: 25 | Result: Red won | Loss: 0.1943
+Game 93/100 | Moves: 36 | Result: Yellow won | Loss: 0.2195
+Game 94/100 | Moves: 19 | Result: Red won | Loss: 0.2079
+Game 95/100 | Moves: 35 | Result: Red won | Loss: 0.2798
+Game 96/100 | Moves: 19 | Result: Red won | Loss: 0.1047
+Game 97/100 | Moves: 42 | Result: Draw | Loss: 0.0965
+Game 98/100 | Moves: 28 | Result: Yellow won | Loss: 0.1965
+Game 99/100 | Moves: 7 | Result: Red won | Loss: 0.2742
+Game 100/100 | Moves: 32 | Result: Yellow won | Loss: 0.2229
+
+Training complete!
+Red wins: 48
+Yellow wins: 42
+Draws: 10
+Model saved to 'connect4_cnn.pth'.
+
+Game 1/100 | Moves: 32 | Result: Yellow won | Loss: 0.2170
+Game 2/100 | Moves: 36 | Result: Yellow won | Loss: 0.3050
+Game 3/100 | Moves: 42 | Result: Yellow won | Loss: 0.2037
+Game 4/100 | Moves: 40 | Result: Yellow won | Loss: 0.2653
+Game 5/100 | Moves: 36 | Result: Yellow won | Loss: 0.3521
+Game 6/100 | Moves: 32 | Result: Yellow won | Loss: 0.2595
+Game 7/100 | Moves: 25 | Result: Red won | Loss: 0.3487
+Game 8/100 | Moves: 28 | Result: Yellow won | Loss: 0.1898
+Game 9/100 | Moves: 19 | Result: Red won | Loss: 0.3224
+Game 10/100 | Moves: 32 | Result: Yellow won | Loss: 0.2371
+Game 11/100 | Moves: 15 | Result: Red won | Loss: 0.3947
+Game 12/100 | Moves: 31 | Result: Red won | Loss: 0.3430
+Game 13/100 | Moves: 36 | Result: Yellow won | Loss: 0.2035
+Game 14/100 | Moves: 23 | Result: Red won | Loss: 0.1370
+Game 15/100 | Moves: 18 | Result: Yellow won | Loss: 0.2192
+Game 16/100 | Moves: 26 | Result: Yellow won | Loss: 0.1937
+Game 17/100 | Moves: 34 | Result: Yellow won | Loss: 0.2698
+Game 18/100 | Moves: 29 | Result: Red won | Loss: 0.2059
+Game 19/100 | Moves: 34 | Result: Yellow won | Loss: 0.2773
+Game 20/100 | Moves: 41 | Result: Red won | Loss: 0.3262
+Game 21/100 | Moves: 27 | Result: Red won | Loss: 0.2328
+Game 22/100 | Moves: 23 | Result: Red won | Loss: 0.2175
+Game 23/100 | Moves: 42 | Result: Yellow won | Loss: 0.3446
+Game 24/100 | Moves: 39 | Result: Red won | Loss: 0.2588
+Game 25/100 | Moves: 35 | Result: Red won | Loss: 0.1421
+Game 26/100 | Moves: 26 | Result: Yellow won | Loss: 0.3810
+Game 27/100 | Moves: 31 | Result: Red won | Loss: 0.1694
+Game 28/100 | Moves: 37 | Result: Red won | Loss: 0.1938
+Game 29/100 | Moves: 39 | Result: Red won | Loss: 0.1634
+Game 30/100 | Moves: 16 | Result: Yellow won | Loss: 0.1879
+Game 31/100 | Moves: 42 | Result: Draw | Loss: 0.0991
+Game 32/100 | Moves: 37 | Result: Red won | Loss: 0.2874
+Game 33/100 | Moves: 39 | Result: Red won | Loss: 0.1596
+Game 34/100 | Moves: 30 | Result: Yellow won | Loss: 0.3535
+Game 35/100 | Moves: 21 | Result: Red won | Loss: 0.1328
+Game 36/100 | Moves: 36 | Result: Yellow won | Loss: 0.2969
+Game 37/100 | Moves: 27 | Result: Red won | Loss: 0.0877
+Game 38/100 | Moves: 7 | Result: Red won | Loss: 0.2638
+Game 39/100 | Moves: 19 | Result: Red won | Loss: 0.1824
+Game 40/100 | Moves: 39 | Result: Red won | Loss: 0.2079
+Game 41/100 | Moves: 21 | Result: Red won | Loss: 0.2363
+Game 42/100 | Moves: 15 | Result: Red won | Loss: 0.1683
+Game 43/100 | Moves: 39 | Result: Red won | Loss: 0.3340
+Game 44/100 | Moves: 33 | Result: Red won | Loss: 0.1345
+Game 45/100 | Moves: 27 | Result: Red won | Loss: 0.2999
+Game 46/100 | Moves: 21 | Result: Red won | Loss: 0.1665
+Game 47/100 | Moves: 35 | Result: Red won | Loss: 0.1497
+Game 48/100 | Moves: 38 | Result: Yellow won | Loss: 0.4907
+Game 49/100 | Moves: 7 | Result: Red won | Loss: 0.1543
+Game 50/100 | Moves: 35 | Result: Red won | Loss: 0.2184
+Game 51/100 | Moves: 21 | Result: Red won | Loss: 0.1717
+Game 52/100 | Moves: 34 | Result: Yellow won | Loss: 0.2286
+Game 53/100 | Moves: 41 | Result: Red won | Loss: 0.2244
+Game 54/100 | Moves: 36 | Result: Yellow won | Loss: 0.3018
+Game 55/100 | Moves: 35 | Result: Red won | Loss: 0.2633
+Game 56/100 | Moves: 7 | Result: Red won | Loss: 0.1834
+Game 57/100 | Moves: 31 | Result: Red won | Loss: 0.1794
+Game 58/100 | Moves: 33 | Result: Red won | Loss: 0.2633
+Game 59/100 | Moves: 38 | Result: Yellow won | Loss: 0.3097
+Game 60/100 | Moves: 36 | Result: Yellow won | Loss: 0.3354
+Game 61/100 | Moves: 29 | Result: Red won | Loss: 0.1665
+Game 62/100 | Moves: 37 | Result: Red won | Loss: 0.2258
+Game 63/100 | Moves: 39 | Result: Red won | Loss: 0.1939
+Game 64/100 | Moves: 34 | Result: Yellow won | Loss: 0.3715
+Game 65/100 | Moves: 21 | Result: Red won | Loss: 0.1203
+Game 66/100 | Moves: 35 | Result: Red won | Loss: 0.1883
+Game 67/100 | Moves: 17 | Result: Red won | Loss: 0.1696
+Game 68/100 | Moves: 28 | Result: Yellow won | Loss: 0.6052
+Game 69/100 | Moves: 42 | Result: Draw | Loss: 0.0717
+Game 70/100 | Moves: 39 | Result: Red won | Loss: 0.2546
+Game 71/100 | Moves: 34 | Result: Yellow won | Loss: 0.3451
+Game 72/100 | Moves: 35 | Result: Red won | Loss: 0.1840
+Game 73/100 | Moves: 34 | Result: Yellow won | Loss: 0.3573
+Game 74/100 | Moves: 27 | Result: Red won | Loss: 0.1711
+Game 75/100 | Moves: 25 | Result: Red won | Loss: 0.0996
+Game 76/100 | Moves: 34 | Result: Yellow won | Loss: 0.2696
+Game 77/100 | Moves: 23 | Result: Red won | Loss: 0.1326
+Game 78/100 | Moves: 28 | Result: Yellow won | Loss: 0.4068
+Game 79/100 | Moves: 34 | Result: Yellow won | Loss: 0.3255
+Game 80/100 | Moves: 36 | Result: Yellow won | Loss: 0.4046
+Game 81/100 | Moves: 33 | Result: Red won | Loss: 0.3130
+Game 82/100 | Moves: 33 | Result: Red won | Loss: 0.1337
+Game 83/100 | Moves: 28 | Result: Yellow won | Loss: 0.2662
+Game 84/100 | Moves: 31 | Result: Red won | Loss: 0.2259
+Game 85/100 | Moves: 37 | Result: Red won | Loss: 0.1890
+Game 86/100 | Moves: 17 | Result: Red won | Loss: 0.1654
+Game 87/100 | Moves: 34 | Result: Yellow won | Loss: 0.2286
+Game 88/100 | Moves: 31 | Result: Red won | Loss: 0.2560
+Game 89/100 | Moves: 25 | Result: Red won | Loss: 0.2851
+Game 90/100 | Moves: 21 | Result: Red won | Loss: 0.1731
+Game 91/100 | Moves: 42 | Result: Draw | Loss: 0.0646
+Game 92/100 | Moves: 36 | Result: Yellow won | Loss: 0.3412
+Game 93/100 | Moves: 33 | Result: Red won | Loss: 0.2203
+Game 94/100 | Moves: 25 | Result: Red won | Loss: 0.2100
+Game 95/100 | Moves: 17 | Result: Red won | Loss: 0.2074
+Game 96/100 | Moves: 32 | Result: Yellow won | Loss: 0.2545
+Game 97/100 | Moves: 26 | Result: Yellow won | Loss: 0.2719
+Game 98/100 | Moves: 33 | Result: Red won | Loss: 0.1958
+Game 99/100 | Moves: 25 | Result: Red won | Loss: 0.1547
+Game 100/100 | Moves: 15 | Result: Red won | Loss: 0.0844
+
+Training complete!Red wins: 61
+Yellow wins: 36
+Draws: 3
+Model saved to 'connect4_cnn.pth'.
+
+Game 1/100 | Moves: 35 | Result: Red won | Loss: 0.1739
+Game 2/100 | Moves: 27 | Result: Red won | Loss: 0.1927
+Game 3/100 | Moves: 39 | Result: Red won | Loss: 0.2162
+Game 4/100 | Moves: 36 | Result: Yellow won | Loss: 0.2917
+Game 5/100 | Moves: 37 | Result: Red won | Loss: 0.1814
+Game 6/100 | Moves: 26 | Result: Yellow won | Loss: 0.3587
+Game 7/100 | Moves: 27 | Result: Red won | Loss: 0.1775
+Game 8/100 | Moves: 35 | Result: Red won | Loss: 0.2463
+Game 9/100 | Moves: 24 | Result: Yellow won | Loss: 0.2523
+Game 10/100 | Moves: 34 | Result: Yellow won | Loss: 0.3059
+Game 11/100 | Moves: 35 | Result: Red won | Loss: 0.1528
+Game 12/100 | Moves: 40 | Result: Yellow won | Loss: 0.2762
+Game 13/100 | Moves: 21 | Result: Red won | Loss: 0.1585
+Game 14/100 | Moves: 35 | Result: Red won | Loss: 0.1605
+Game 15/100 | Moves: 34 | Result: Yellow won | Loss: 0.2601
+Game 16/100 | Moves: 35 | Result: Red won | Loss: 0.1793
+Game 17/100 | Moves: 18 | Result: Yellow won | Loss: 0.2357
+Game 18/100 | Moves: 40 | Result: Yellow won | Loss: 0.3241
+Game 19/100 | Moves: 27 | Result: Red won | Loss: 0.1964
+Game 20/100 | Moves: 19 | Result: Red won | Loss: 0.1451
+Game 21/100 | Moves: 25 | Result: Red won | Loss: 0.2760
+Game 22/100 | Moves: 36 | Result: Yellow won | Loss: 0.2554
+Game 23/100 | Moves: 37 | Result: Red won | Loss: 0.1859
+Game 24/100 | Moves: 40 | Result: Yellow won | Loss: 0.5041
+Game 25/100 | Moves: 19 | Result: Red won | Loss: 0.1258
+Game 26/100 | Moves: 19 | Result: Red won | Loss: 0.3099
+Game 27/100 | Moves: 32 | Result: Yellow won | Loss: 0.2077
+Game 28/100 | Moves: 26 | Result: Yellow won | Loss: 0.4175
+Game 29/100 | Moves: 27 | Result: Red won | Loss: 0.1563
+Game 30/100 | Moves: 35 | Result: Red won | Loss: 0.1881
+Game 31/100 | Moves: 21 | Result: Red won | Loss: 0.1334
+Game 32/100 | Moves: 25 | Result: Red won | Loss: 0.1843
+Game 33/100 | Moves: 40 | Result: Yellow won | Loss: 0.3110
+Game 34/100 | Moves: 24 | Result: Yellow won | Loss: 0.2022
+Game 35/100 | Moves: 36 | Result: Yellow won | Loss: 0.2678
+Game 36/100 | Moves: 19 | Result: Red won | Loss: 0.2250
+Game 37/100 | Moves: 37 | Result: Red won | Loss: 0.2941
+Game 38/100 | Moves: 29 | Result: Red won | Loss: 0.2368
+Game 39/100 | Moves: 23 | Result: Red won | Loss: 0.0894
+Game 40/100 | Moves: 42 | Result: Yellow won | Loss: 0.2929
+Game 41/100 | Moves: 38 | Result: Yellow won | Loss: 0.2546
+Game 42/100 | Moves: 42 | Result: Draw | Loss: 0.1020
+Game 43/100 | Moves: 32 | Result: Yellow won | Loss: 0.3091
+Game 44/100 | Moves: 33 | Result: Red won | Loss: 0.1691
+Game 45/100 | Moves: 36 | Result: Yellow won | Loss: 0.2239
+Game 46/100 | Moves: 7 | Result: Red won | Loss: 0.2239
+Game 47/100 | Moves: 38 | Result: Yellow won | Loss: 0.2565
+Game 48/100 | Moves: 36 | Result: Yellow won | Loss: 0.2214
+Game 49/100 | Moves: 37 | Result: Red won | Loss: 0.2267
+Game 50/100 | Moves: 39 | Result: Red won | Loss: 0.2351
+Game 51/100 | Moves: 32 | Result: Yellow won | Loss: 0.4298
+Game 52/100 | Moves: 38 | Result: Yellow won | Loss: 0.2339
+Game 53/100 | Moves: 40 | Result: Yellow won | Loss: 0.2984
+Game 54/100 | Moves: 25 | Result: Red won | Loss: 0.1915
+Game 55/100 | Moves: 35 | Result: Red won | Loss: 0.4680
+Game 56/100 | Moves: 21 | Result: Red won | Loss: 0.1854
+Game 57/100 | Moves: 36 | Result: Yellow won | Loss: 0.2440
+Game 58/100 | Moves: 28 | Result: Yellow won | Loss: 0.1398
+Game 59/100 | Moves: 27 | Result: Red won | Loss: 0.3005
+Game 60/100 | Moves: 15 | Result: Red won | Loss: 0.1857
+Game 61/100 | Moves: 34 | Result: Yellow won | Loss: 0.2026
+Game 62/100 | Moves: 18 | Result: Yellow won | Loss: 0.1685
+Game 63/100 | Moves: 37 | Result: Red won | Loss: 0.3317
+Game 64/100 | Moves: 26 | Result: Yellow won | Loss: 0.2702
+Game 65/100 | Moves: 42 | Result: Yellow won | Loss: 0.2840
+Game 66/100 | Moves: 29 | Result: Red won | Loss: 0.1773
+Game 67/100 | Moves: 21 | Result: Red won | Loss: 0.2851
+Game 68/100 | Moves: 34 | Result: Yellow won | Loss: 0.2285
+Game 69/100 | Moves: 19 | Result: Red won | Loss: 0.1735
+Game 70/100 | Moves: 34 | Result: Yellow won | Loss: 0.1880
+Game 71/100 | Moves: 30 | Result: Yellow won | Loss: 0.1929
+Game 72/100 | Moves: 15 | Result: Red won | Loss: 0.1492
+Game 73/100 | Moves: 38 | Result: Yellow won | Loss: 0.1953
+Game 74/100 | Moves: 37 | Result: Red won | Loss: 0.2813
+Game 75/100 | Moves: 23 | Result: Red won | Loss: 0.1860
+Game 76/100 | Moves: 17 | Result: Red won | Loss: 0.1644
+Game 77/100 | Moves: 35 | Result: Red won | Loss: 0.1736
+Game 78/100 | Moves: 20 | Result: Yellow won | Loss: 0.3102
+Game 79/100 | Moves: 42 | Result: Draw | Loss: 0.0689
+Game 80/100 | Moves: 21 | Result: Red won | Loss: 0.1781
+Game 81/100 | Moves: 25 | Result: Red won | Loss: 0.2048
+Game 82/100 | Moves: 36 | Result: Yellow won | Loss: 0.2246
+Game 83/100 | Moves: 29 | Result: Red won | Loss: 0.1973
+Game 84/100 | Moves: 36 | Result: Yellow won | Loss: 0.2956
+Game 85/100 | Moves: 15 | Result: Red won | Loss: 0.2046
+Game 86/100 | Moves: 32 | Result: Yellow won | Loss: 0.2263
+Game 87/100 | Moves: 35 | Result: Red won | Loss: 0.2210
+Game 88/100 | Moves: 29 | Result: Red won | Loss: 0.0923
+Game 89/100 | Moves: 21 | Result: Red won | Loss: 0.2319
+Game 90/100 | Moves: 40 | Result: Yellow won | Loss: 0.4220
+Game 91/100 | Moves: 23 | Result: Red won | Loss: 0.0973
+Game 92/100 | Moves: 25 | Result: Red won | Loss: 0.1863
+Game 93/100 | Moves: 36 | Result: Yellow won | Loss: 0.2079
+Game 94/100 | Moves: 21 | Result: Red won | Loss: 0.1573
+Game 95/100 | Moves: 7 | Result: Red won | Loss: 0.1043
+Game 96/100 | Moves: 34 | Result: Yellow won | Loss: 0.3233
+Game 97/100 | Moves: 17 | Result: Red won | Loss: 0.0677
+Game 98/100 | Moves: 25 | Result: Red won | Loss: 0.1170
+Game 99/100 | Moves: 19 | Result: Red won | Loss: 0.0794
+Game 100/100 | Moves: 36 | Result: Yellow won | Loss: 0.2476
+
+Training complete!Red wins: 56
+Yellow wins: 42
+Draws: 2
+Model saved to 'connect4_cnn.pth'.
+Average loss: 0.22366263575851916
+Maximum loss: 0.5041377544403076
