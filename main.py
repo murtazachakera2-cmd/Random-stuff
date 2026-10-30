@@ -5,6 +5,7 @@ import numpy as np
 import random
 import copy
 import os
+from collections import deque
 
 
 # 1. CONNECT 4 ENVIRONMENT
@@ -97,6 +98,32 @@ class Connect4CNN(nn.Module):
         x = self.relu(self.fc1(x))
         out = self.tanh(self.fc2(x))  # Range: -1 (Yellow win) to +1 (Red win)
         return out
+def find_winning_move(env, player):
+    """Return a column where `player` wins immediately, or None."""
+    for col in env.get_valid_moves():
+        test = env.clone()
+        test.current_player = player
+        if test.make_move(col) == player:
+            return col
+    return None
+
+
+def tactical_move(env):
+    """Take a win if available, otherwise block the opponent's win, otherwise None."""
+    me = env.current_player
+    win = find_winning_move(env, me)
+    if win is not None:
+        return win
+    return find_winning_move(env, -me)
+
+def find_winning_move(env, player):
+    """Return a column where `player` wins immediately, or None."""
+    for col in env.get_valid_moves():
+        test = env.clone()
+        test.current_player = player
+        if test.make_move(col) == player:
+            return col
+    return None
 
 
 ## MCTS class
@@ -182,7 +209,7 @@ def mcts_search(root_env, num_simulations=50):
 
     return action_values
 
-def play_one_game(mcts_simulations=40):
+def play_one_game(mcts_simulations=40,varience=6):
     env = Connect4Env()
 
     states = []
@@ -191,6 +218,11 @@ def play_one_game(mcts_simulations=40):
     chosen_moves = []
 
     winner = None
+    num_random = random.randint(0, varience)
+    for _ in range(num_random):
+        winner = env.make_move(random.choice(env.get_valid_moves()))
+        if winner is not None:
+            break
 
     # Training loop
     while winner is None:
@@ -250,6 +282,35 @@ def play_one_game(mcts_simulations=40):
         winner
     )
 
+CHECKPOINT_PATH = "checkpoint.pt"
+class ReplayBuffer:
+    
+    def __init__(self, capacity=20000):
+        self.buffer = deque(maxlen=capacity)  # oldest positions drop off automatically
+
+    def add_game(self, states, targets, masks):
+        for s, t, m in zip(states, targets, masks):
+            self.buffer.append((s, t, m))
+
+    def sample(self, batch_size):
+        batch = random.sample(self.buffer, batch_size)
+        s, t, m = zip(*batch)
+        return torch.stack(s), torch.stack(t), torch.stack(m)
+
+    def __len__(self):
+        return len(self.buffer)
+    
+
+def save_checkpoint(model, optimizer, buffer, game_number):
+    tmp = CHECKPOINT_PATH + ".tmp"
+    torch.save({
+        "model": model.state_dict(),
+        "optimizer": optimizer.state_dict(),
+        "buffer": list(buffer.buffer),   # deque -> plain list
+        "game_number": game_number,
+    }, tmp)
+    os.replace(tmp, CHECKPOINT_PATH)  # swap in only after the write finished
+    
 #TRAINING LOOP
 def train():
     losses = []
@@ -261,65 +322,68 @@ def train():
         device = torch.device("cpu")
 
     model = Connect4CNN().to(device)
-
     model_path = "connect4_cnn.pth"
 
     if os.path.exists(model_path):
-        model.load_state_dict(
-            torch.load(model_path, map_location=device)
-        )
+        model.load_state_dict(torch.load(model_path, map_location=device))
         print("Loaded existing model. Continuing training...")
     else:
         print("Starting with a fresh model...")
 
-    optimizer = optim.Adam(
-        model.parameters(),
-        lr=0.001
-    )
-
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
     criterion = nn.MSELoss()
 
-    num_games = 100
-    mcts_simulations = 300
+    num_games = 2000
+    mcts_simulations = 500
+    start_game = 1
+    batch_size = 256
+    train_steps_per_game = 100  # batches of 256 trained after each game
+    buffer = ReplayBuffer(capacity=20000)
+
+  
+    if os.path.exists(CHECKPOINT_PATH):
+        ckpt = torch.load(CHECKPOINT_PATH, map_location=device)
+        model.load_state_dict(ckpt["model"])
+        optimizer.load_state_dict(ckpt["optimizer"])
+        buffer.buffer.extend(ckpt["buffer"])
+        start_game = ckpt["game_number"] + 1
+        print(f"Resumed from game {ckpt['game_number']} with {len(buffer)} buffered positions.")
 
     print(f"Training on {device}...")
     print(f"Total games: {num_games}")
 
-    red_wins = 0
-    yellow_wins = 0
-    draws = 0
-    game_number = 1
-    with open("data.txt","a") as file:
-        while True:
+    red_wins = yellow_wins = draws = 0
 
-            if (game_number > num_games):
-                break
+    with open("data.txt", "a") as file:
+        for game_number in range(start_game, num_games + 1):
 
-
-            # STEP 1: PLAY ONE COMPLETE GAME
+            # STEP 1: PLAY ONE GAME AND STORE ITS POSITIONS
             states, targets, masks, winner = play_one_game(
-                mcts_simulations=mcts_simulations
+                mcts_simulations=mcts_simulations,
+                varience=6
             )
+            num_moves = len(states)
+            buffer.add_game(states, targets, masks)
 
-            # Move the entire game's data to the device
-            states = states.to(device)
-            targets = targets.to(device)
-            masks = masks.to(device)
+            # STEP 2: TRAIN ON RANDOM BATCHES OF 64 (once enough data exists)
+            loss_value = None
+            if len(buffer) >= batch_size:
+                step_losses = []
+                for _ in range(train_steps_per_game):
+                    b_states, b_targets, b_masks = buffer.sample(batch_size)
+                    b_states = b_states.to(device)
+                    b_targets = b_targets.to(device)
+                    b_masks = b_masks.to(device)
 
-            # STEP 2: MAKE PREDICTIONS FOR EVERY POSITION
-            optimizer.zero_grad()
+                    optimizer.zero_grad()
+                    predictions = model(b_states)
+                    loss = criterion(predictions[b_masks], b_targets[b_masks])
+                    loss.backward()
+                    optimizer.step()
+                    step_losses.append(loss.item())
 
-            predictions = model(states)
-
-            # Calculate loss only for legal moves
-            loss = criterion(
-                predictions[masks],
-                targets[masks]
-            )
-
-            # STEP 3: UPDATE THE CNN ONCE FOR THIS GAME
-            loss.backward()
-            optimizer.step()
+                loss_value = sum(step_losses) / len(step_losses)
+                losses.append(loss_value)
 
             # Count the result
             if winner == 1:
@@ -332,42 +396,32 @@ def train():
                 draws += 1
                 result = "Draw"
 
-            file.write(
-                f"Game {game_number}/{num_games} | "
-                f"Moves: {len(states)} | "
-                f"Result: {result} | "
-                f"Loss: {loss.item():.4f}\n"
+            loss_text = f"{loss_value:.4f}" if loss_value is not None else "warming up"
+            line = (
+                f"Game {game_number}/{num_games} | Moves: {num_moves} | "
+                f"Result: {result} | Loss: {loss_text} | Buffer: {len(buffer)}"
             )
-            print(
-                f"Game {game_number}/{num_games} | "
-                f"Moves: {len(states)} | "
-                f"Result: {result} | "
-                f"Loss: {loss.item():.4f}"
-            )
-            losses.append(loss.item())
+            file.write(line + "\n")
+            print(line)
 
-            # Save progress every 10 games
             if game_number % 10 == 0:
                 torch.save(model.state_dict(), model_path)
+                save_checkpoint(model, optimizer, buffer, game_number)
 
-            game_number += 1
-
-        # Final save
         torch.save(model.state_dict(), model_path)
 
-        file.write("\nTraining complete!")
-        file.write(f"Red wins: {red_wins}\n")
-        file.write(f"Yellow wins: {yellow_wins}\n")
-        file.write(f"Draws: {draws}\n")
+        avg_loss = sum(losses) / len(losses) if losses else float("nan")
+        max_loss = max(losses) if losses else float("nan")
+
+        file.write("\nTraining complete!\n")
+        file.write(f"Red wins: {red_wins}\nYellow wins: {yellow_wins}\nDraws: {draws}\n")
+        file.write(f"Average loss: {avg_loss}\nMaximum loss: {max_loss}\n")
         file.write(f"Model saved to '{model_path}'.\n\n")
 
-        print("Training complete!\n")
-        print(f"Red wins: {red_wins}")
-        print(f"Yellow wins: {yellow_wins}")
-        print(f"Draws: {draws}")
+        print("\nTraining complete!")
+        print(f"Red wins: {red_wins}\nYellow wins: {yellow_wins}\nDraws: {draws}")
         print(f"Model saved to '{model_path}'.")
-        print(f"Average loss: {sum(losses) / len(losses)}")
-        print(f"Maximum loss: {max(losses)}")
+        print(f"Average loss: {avg_loss}\nMaximum loss: {max_loss}")
 
 
 if __name__ == "__main__":
