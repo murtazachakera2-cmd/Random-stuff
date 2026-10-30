@@ -1,2 +1,6 @@
-# Random-stuff
-I dont know its just random stuff
+# Connect-4 CNN
+
+Requirements
+- Numpy
+- Pytorch
+
